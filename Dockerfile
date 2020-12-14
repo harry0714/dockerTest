@@ -1,6 +1,5 @@
 FROM java
 MAINTAINER jack
-RUN apt-get update
 RUN apt-get install -y wget
 
 RUN cd /
